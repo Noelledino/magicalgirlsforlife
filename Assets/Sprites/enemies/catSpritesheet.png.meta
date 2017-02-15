@@ -1,0 +1,566 @@
+fileFormatVersion: 2
+guid: ce2ef27401567564eb4033632e017c76
+timeCreated: 1486933890
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: catSpritesheet_0
+    21300002: catSpritesheet_1
+    21300004: catSpritesheet_2
+    21300006: catSpritesheet_3
+    21300008: catSpritesheet_4
+    21300010: catSpritesheet_5
+    21300012: catSpritesheet_6
+    21300014: catSpritesheet_7
+    21300016: catSpritesheet_8
+    21300018: catSpritesheet_9
+    21300020: catSpritesheet_10
+    21300022: catSpritesheet_11
+    21300024: catSpritesheet_12
+    21300026: catSpritesheet_13
+    21300028: catSpritesheet_14
+    21300030: catSpritesheet_15
+    21300032: catSpritesheet_16
+    21300034: catSpritesheet_17
+    21300036: catSpritesheet_18
+    21300038: catSpritesheet_19
+    21300040: catSpritesheet_20
+    21300042: catSpritesheet_21
+    21300044: catSpritesheet_22
+    21300046: catSpritesheet_23
+    21300048: catSpritesheet_24
+    21300050: catSpritesheet_25
+    21300052: catSpritesheet_26
+    21300054: catSpritesheet_27
+    21300056: catSpritesheet_28
+    21300058: catSpritesheet_29
+    21300060: catSpritesheet_30
+    21300062: catSpritesheet_31
+    21300064: catSpritesheet_32
+    21300066: catSpritesheet_33
+    21300068: catSpritesheet_34
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: catSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 490
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 459
+        width: 89
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 490
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 490
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 490
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 490
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 490
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 490
+        width: 99
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 500
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 490
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 505
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 490
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 330
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 330
+        width: 81
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 330
+        width: 80
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 330
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 330
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 330
+        width: 80
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 250
+        width: 100
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 170
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 170
+        width: 81
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 170
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 170
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 170
+        width: 81
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 170
+        width: 80
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 10
+        width: 100
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 10
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 10
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 10
+        width: 93
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 10
+        width: 93
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 10
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 10
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 10
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 10
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: catSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 10
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

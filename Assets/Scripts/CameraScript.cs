@@ -4,49 +4,30 @@ using UnityEngine;
 
 		 class CameraScript : MonoBehaviour
          {
-             public Transform target;
-             public float damping = 1;
-             public float lookAheadFactor = 3;
-             public float lookAheadReturnSpeed = 0.5f;
-             public float lookAheadMoveThreshold = 0.1f;
 
-             private float m_OffsetZ;
-             private Vector3 m_LastTargetPosition;
-             private Vector3 m_CurrentVelocity;
-             private Vector3 m_LookAheadPos;
+	public Transform target;
+	public SpriteRenderer scene;
 
-             // Use this for initialization
-             private void Start()
-             {
-                 m_LastTargetPosition = target.position;
-                 m_OffsetZ = (transform.position - target.position).z;
-                 transform.parent = null;
-             }
+	//zeros out the velocity
+	Vector3 velocity = Vector3.zero;
+
+	//time it takes to follow the target
+	public float smoothTime = .15f;
+
+	void FixedUpdate()
+	{
+		Vector3 targetPos = target.position;
+
+		targetPos.x = Mathf.Clamp (target.position.x, scene.bounds.min.x + Camera.main.aspect*Camera.main.orthographicSize, scene.bounds.max.x - Camera.main.aspect*Camera.main.orthographicSize);
+		targetPos.y = Mathf.Clamp (target.position.y, scene.bounds.min.y  + Camera.main.orthographicSize, scene.bounds.max.y - Camera.main.orthographicSize);
+	
 
 
-             // Update is called once per frame
-             private void Update()
-             {
-                 // only update lookahead pos if accelerating or changed direction
-                 float xMoveDelta = (target.position - m_LastTargetPosition).x;
 
-                 bool updateLookAheadTarget = Mathf.Abs(xMoveDelta) > lookAheadMoveThreshold;
 
-                 if (updateLookAheadTarget)
-                 {
-                     m_LookAheadPos = lookAheadFactor*Vector3.right*Mathf.Sign(xMoveDelta);
-                 }
-                 else
-                 {
-                     m_LookAheadPos = Vector3.MoveTowards(m_LookAheadPos, Vector3.zero, Time.deltaTime*lookAheadReturnSpeed);
-                 }
+		//aligns target and camera's z
+		targetPos.z = transform.position.z;
 
-                 Vector3 aheadTargetPos = target.position + m_LookAheadPos + Vector3.forward*m_OffsetZ;
-                 Vector3 newPos = Vector3.SmoothDamp(transform.position, aheadTargetPos, ref m_CurrentVelocity, damping);
-
-                 transform.position = newPos;
-
-                 m_LastTargetPosition = target.position;
-             }
-         }
-  
+		transform.position = Vector3.SmoothDamp (transform.position, targetPos, ref velocity, smoothTime);
+	}
+}
