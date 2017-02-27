@@ -54,6 +54,13 @@ public class chatWindow : MonoBehaviour {
 				leftPortrait.sprite = leftPortraitSprite;
 				dialogueIndex++;
 				advanceText ();
+			} else if (nextDialogue.StartsWith ("#rightPortrait")) {
+				string[] commandElements = nextDialogue.Split (':');
+				string rightPortraitName = commandElements [1];
+				Sprite rightPortraitSprite = Resources.Load<Sprite> (rightPortraitName);
+				rightPortrait.sprite = rightPortraitSprite;
+				dialogueIndex++;
+				advanceText ();
 			}
 			else {
 				bodyText.text = nextDialogue;
