@@ -1,5 +1,8 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CharControllScript : MonoBehaviour{
 
@@ -14,9 +17,12 @@ public class CharControllScript : MonoBehaviour{
 	public float jumpForce = 800f;
 	bool doubleJump = false; 
 
+	public static Vector3 spawnPosition;
+
 	void Start ()	{
 		anim = GetComponent<Animator> ();
 		GetComponent<Rigidbody2D> ().freezeRotation = true;
+		transform.position = spawnPosition;
 	}
 
 	void FixedUpdate ()	{
@@ -57,4 +63,14 @@ void Flip () {
 	theScale.x *= -1;
 	transform.localScale = theScale;
 }
-}
+
+void OnTriggerEnter2D(Collider2D other) {
+		if (other.tag == "Exit") {
+				ExitScript theOtherExit = other.GetComponent<ExitScript> ();
+				spawnPosition = theOtherExit.positionOfPlayerInNextScene;
+
+				SceneManager.LoadScene (theOtherExit.sceneToExitTo);
+
+			}
+		}
+	}

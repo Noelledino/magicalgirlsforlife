@@ -1,10 +1,50 @@
-Wowie
-That's cool
+#speaker:???
+There you are! After all this running, I found you!
+#speaker:The BlackCat
+Ah, yes. I was being followed.
+#speaker:???
+Woah, you talk!
+#speaker:The Black Cat
+Human, you must traverse through these doors if you wish to return to where you belong.
+#speaker:???
+Where I belong...?
+But where am I, o mysterious feline?
 #speaker:Cat
-you're doing great
-#speaker:Player
-keep it up friend!
-Heck yeah awesome job!
-Wowie Kazoowie.
-Here's some more dialogue.
-Oh man.
+...
+Meow.
+#speaker:???
+Hey! You can't just stop talking to me when I ask you a question!!
+#speaker:Cat
+Do you even know your own name, child?
+#speaker:???
+My name? Of course! It's....
+...
+I... don't know.
+#speaker:The Black Cat
+I see.
+I apologize, human. There is only so much information that I can disclose.
+If you really do want answers, seek out The Novaturient.  She owns this domain, and I am but her humble denizen.
+However, the door to her chambers is locked.
+Only with the five worldly gems can you enter.
+#speaker:???
+How can I get these gems then?
+#speaker:The Black Cat
+By entering their respective portals, of course.
+But if I remember right, The Novaturient broke all the gems when she was upset with me the other day.
+#speaker:???
+Eeeeehhhh??????
+#speaker:The Black Cat
+I am no longer allowed in her room, you see.
+...I kept throwing up hairballs in her bed..
+#speaker:???
+That's... disgusting.
+#speaker:The Black Cat
+Meow.
+Worry not, human. The shards still remain in each world.
+If you collect them all, they should return to their original forms.
+The Novaturient hid them though.  Where I do not know.
+#speaker:???
+Do you have any ideas?
+#speaker:The Black Cat
+I've noticed that there are items that do not belong in each world. Some stand out more than others, but belong they do not.
+Come closer, human.

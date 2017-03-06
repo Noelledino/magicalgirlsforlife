@@ -1,0 +1,8 @@
+#speaker:Cat
+Excellent work.
+Now head through this door behind me.
+Your surroundings may look different, but do not worry. Find the things that don't belong there.
+#speaker:Player
+But how will I know that they don't belong?
+#speaker:Cat
+You'll notice the glow that you saw around me.  Now get going. Good luck.
