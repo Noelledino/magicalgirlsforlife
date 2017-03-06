@@ -1,11 +1,11 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class ObjectScript : MonoBehaviour
 {
 	private Renderer rend;
-	public GameObject ObjectDialogue;
-
+	public GameObject ObjectText;
 
 	void  Start ()
 	{
@@ -20,8 +20,6 @@ public class ObjectScript : MonoBehaviour
 
 	void OnMouseDown ()
 	{ 
-		Debug.Log ("An object has been clicked.");
-		ObjectDialogue.SetActive (true);
 	}
 
 	void OnMouseExit ()
@@ -30,4 +28,14 @@ public class ObjectScript : MonoBehaviour
 
 	}
 
+	void Update() 
+	{
+		if (Input.GetMouseButtonDown (0)) {
+			Vector3 mousePos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+			if (GetComponent<Collider2D> ().OverlapPoint (mousePos)) {
+				Debug.Log ("An object has been clicked.");
+				ObjectText.SetActive (true);
+			}
+		}
+	}
 }
