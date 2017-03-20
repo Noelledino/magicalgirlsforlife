@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class CharControllScript : MonoBehaviour{
 
+	public AudioClip jump;
+	public AudioClip click;
+
 	public float maxSpeed = 15f;
 	bool facingRight = true;
 	Animator anim;
@@ -48,11 +51,15 @@ public class CharControllScript : MonoBehaviour{
 				anim.SetBool ("Ground", false);
 				GetComponent<Rigidbody2D> ().velocity = new Vector2 (GetComponent<Rigidbody2D> ().velocity.x, 0f);   
 				GetComponent<Rigidbody2D> ().AddForce (new Vector2 (0f, jumpForce)); 
+				AudioSource ourAudio = GetComponent<AudioSource> ();
+				ourAudio.PlayOneShot (jump);
 				doubleJump = true;
 			} else if (doubleJump) {
 				doubleJump = false;
 				GetComponent<Rigidbody2D> ().velocity = new Vector2 (GetComponent<Rigidbody2D> ().velocity.x, 0f);  
 				GetComponent<Rigidbody2D> ().AddForce (new Vector2 (0f, jumpForce)); 
+				AudioSource ourAudio = GetComponent<AudioSource> ();
+				ourAudio.PlayOneShot (jump);
 			}
 		}
 	}
